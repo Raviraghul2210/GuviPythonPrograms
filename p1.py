@@ -1,2 +1,2 @@
-niv=input()
-print(niv[::-1])
+Nn1=input()
+print(Nn1[::-1])
