@@ -1,7 +1,7 @@
-chr=input(" ")
-if chr in('a','e','i','o','u'):
+chr1=input(" ")
+if chr1 in('a','e','i','o','u'):
     print("Vowel")
-elif chr in('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'):
+elif chr1 in('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'):
     print("Consonant")
 else:
     print("invalid")
