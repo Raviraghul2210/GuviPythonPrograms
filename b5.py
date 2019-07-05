@@ -1,7 +1,7 @@
-x1,y1,z1=input().split()
-if x1>y1 and x1>z1:
-    print("x1")
-elif y1>z1:
-    print("y1")
+u1,v1,w1=input().split()
+if u1>v1 and u1>w1:
+    print("u1")
+elif v1>w1:
+    print("v1")
 else:
-    print("z1")
+    print("w1")
