@@ -1,5 +1,5 @@
-leapyr=int(input())
-if (leapyr % 4 ==0):
+leapyr1=int(input())
+if (leapyr1 % 4 ==0):
     print('yes')
 else:
     print('no')
