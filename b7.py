@@ -1,3 +1,3 @@
-Nn=int(input())
-for x in range(Nn):
+Niv=int(input())
+for x in range(Niv):
     print('Hello')
