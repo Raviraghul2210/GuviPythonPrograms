@@ -1,11 +1,11 @@
-inputnum=int(input())
+num=int(input())
+ab=num
 sum=0
-n=inputnum
-while n>0:
-    dig=n%10
-    sum+=dig**3
-    n//=10
-    if(inputnum==sum):
-        print('yes')
-    else:
-        print('no')
+while num>0:
+  b=num%10
+  sum=sum+b*b*b
+  num=num//10
+if ab==sum:
+  print("yes")
+else:
+  print("no")
